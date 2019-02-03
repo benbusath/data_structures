@@ -1,0 +1,35 @@
+INT [INT]
+insertHead 10 true
+insertHead 9 true
+insertHead 8 true
+insertHead 7 true
+insertHead 6 true
+insertHead 5 true
+insertHead 4 true
+insertHead 3 true
+insertHead 2 true
+insertHead 1 true
+insertHead 0 true
+insertAfter 1 -1 true
+insertAfter 0 9999 true
+insertAfter 10 12 true
+size 14
+printList 0 9999 1 -1 2 3 4 5 6 7 8 9 10 12
+remove -1
+size 13
+printList 0 9999 1 2 3 4 5 6 7 8 9 10 12
+remove -1
+size 13
+printList 0 9999 1 2 3 4 5 6 7 8 9 10 12
+remove 15
+size 13
+printList 0 9999 1 2 3 4 5 6 7 8 9 10 12
+remove 9999
+size 12
+printList 0 1 2 3 4 5 6 7 8 9 10 12
+remove 10
+size 11
+printList 0 1 2 3 4 5 6 7 8 9 12
+remove 0
+size 10
+printList 1 2 3 4 5 6 7 8 9 12
